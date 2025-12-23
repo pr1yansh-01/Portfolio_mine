@@ -1,4 +1,4 @@
-# 3D Portfolio
+# Portfolio-mine
 
 <!-- ![Portfolio Screenshot](/public/assets/readme_assets/demo-screenshot.png) -->
 
