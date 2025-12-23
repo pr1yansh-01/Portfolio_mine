@@ -8,7 +8,10 @@ import ProblemSolvingIcon from "./../public/assets/icons/problem-solving.svg";
 import FreelancerIcon from "./../public/assets/icons/freelance.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
 import FullStackIcon from "./../public/assets/icons/full-stack.svg";
-
+import LeetcodeIcon from "./../public/assets/icons/leetcode.svg";
+import CodeforcesIcon from "./../public/assets/icons/code-forces.svg";
+// import CodechefIcon from "./../public/assets/phptos/icons8-codechef-48.svg";
+import CodechefIcon from "./../public/assets/photos/icons8-codechef-48.svg";
 const navLinks = [
   {
     id: "about",
@@ -279,12 +282,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "LISA AI assistant",
+    name: "SPT-Stock Portfolio Tracker",
     description:
-      "LISA: A conversational AI assistant that understands natural language, performs tasks, answers questions, and integrates with devices to simplify daily life.",
+      "SPT: A comprehensive **Data Structures and Algorithms** demonstration project that implements a real-world stock portfolio management system using C++.",
     tags: [
       {
-        name: "html",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
@@ -292,348 +295,356 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "HTML",
         color: "pink-text-gradient",
       },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
+      // {
+      //   name: "fabricjs",
+      //   color: "orange-text-gradient",
+      // },
+      // {
+      //   name: "liveblocks",
+      //   color: "yellow-text-gradient",
+      // },
     ],
-    image: "/assets/projects/ChatBot.png",
+    image: "/assets/projects/SPT.png",
     source_code_link:
-      "https://github.com/satyamshorrf/Lisa-Chatbot-Virtual-Assistant",
+      "https://github.com/priyansh7124/Stock-Portfolio-Tracker.",
     deployed_link:
       "https://satyamshorrf.github.io/Lisa-Chatbot-Virtual-Assistant/",
   },
-  {
-    name: "Amazon Website",
-    description:
-      "Creating an Amazon Clone using HTML, CSS, and JavaScript involves several steps to replicate the look and functionality of the Amazon website. Here is a brief overview of the process:",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/assets/projects/amazon.jpg",
-    source_code_link: "https://github.com/satyamshorrf/Amazon",
-    deployed_link: "https://satyamshorrf.github.io/Amazon/",
-  },
-  {
-    name: "AI Virtual Girlfriend",
-    description:
-      "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/AI-Girlfriend.jpeg",
-    source_code_link:
-      "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
-    deployed_link: "#",
-  },
-  {
-    name: "lazarev ",
-    description:
-      "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/lazarev.png",
-    source_code_link: "https://github.com/satyamshorrf/lazarev",
-    deployed_link: "https://satyamshorrf.github.io/lazarev/",
-  },
-  {
-    name: "3D Animated Website",
-    description:
-      "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/3D-Animated.png",
-    source_code_link: "https://github.com/satyamshorrf/3D-Animated-Website",
-    deployed_link: "https://3-d-animated-website-ochre.vercel.app",
-  },
-  {
-    name: "ThreeJS Landing Page",
-    description:
-      "Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/ThreeJS.png",
-    source_code_link: "https://github.com/satyamshorrf/Landing-Page-ThreeJS",
-    deployed_link: "https://landing-page-three-js-eight.vercel.app",
-  },
-  {
-    name: "TPC Madhepura",
-    description:
-      "As a 2nd-year BCA student, you can create a Friend Circle website using HTML, CSS, and JavaScript. This project can allow users to connect with their friends and display their social media profiles. Key features can include: Profile Cards: Use HTML and CSS to design individual profile cards with each friend's name, picture, and social media icons linked to their accounts; Add Friends Feature: Implement a feature to add friends using a form and a Friends Mapping structure in JavaScript or backend logic; Responsive Design: Ensure the website works across devices using media queries and responsive layouts; Theme Customization: Allow users to customize the look of the website with light/dark themes; Interactive Features: Use JavaScript for animations, interactive menus, or showing/hiding details dynamically. This project can serve as a practical introduction to web development concepts and enhance your skills!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/TPC-Madhepura.png",
-    source_code_link: "https://github.com/satyamshorrf/TPC-Madhepura",
-    deployed_link: "https://tpc-madhepura.vercel.app",
-  },
-  {
-    name: "Responsive Construction Website",
-    description:
-      "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/assets/projects/construction.png",
-    source_code_link:
-      "https://github.com/satyamshorrf/Responsive-Construction-Website",
-    deployed_link:
-      "https://satyamshorrf.github.io/Responsive-Construction-Website/",
-  },
+  // {
+  //   name: "Amazon Website",
+  //   description:
+  //     "Creating an Amazon Clone using HTML, CSS, and JavaScript involves several steps to replicate the look and functionality of the Amazon website. Here is a brief overview of the process:",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "styled-components",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "three.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "prisma",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "framer-motion",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/amazon.jpg",
+  //   source_code_link: "https://github.com/satyamshorrf/Amazon",
+  //   deployed_link: "https://satyamshorrf.github.io/Amazon/",
+  // },
+  // {
+  //   name: "AI Virtual Girlfriend",
+  //   description:
+  //     "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/AI-Girlfriend.jpeg",
+  //   source_code_link:
+  //     "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
+  //   deployed_link: "#",
+  // },
+  // {
+  //   name: "lazarev ",
+  //   description:
+  //     "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/lazarev.png",
+  //   source_code_link: "https://github.com/satyamshorrf/lazarev",
+  //   deployed_link: "https://satyamshorrf.github.io/lazarev/",
+  // },
+  // {
+  //   name: "3D Animated Website",
+  //   description:
+  //     "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/3D-Animated.png",
+  //   source_code_link: "https://github.com/satyamshorrf/3D-Animated-Website",
+  //   deployed_link: "https://3-d-animated-website-ochre.vercel.app",
+  // },
+  // {
+  //   name: "ThreeJS Landing Page",
+  //   description:
+  //     "Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/ThreeJS.png",
+  //   source_code_link: "https://github.com/satyamshorrf/Landing-Page-ThreeJS",
+  //   deployed_link: "https://landing-page-three-js-eight.vercel.app",
+  // },
+  // {
+  //   name: "TPC Madhepura",
+  //   description:
+  //     "As a 2nd-year BCA student, you can create a Friend Circle website using HTML, CSS, and JavaScript. This project can allow users to connect with their friends and display their social media profiles. Key features can include: Profile Cards: Use HTML and CSS to design individual profile cards with each friend's name, picture, and social media icons linked to their accounts; Add Friends Feature: Implement a feature to add friends using a form and a Friends Mapping structure in JavaScript or backend logic; Responsive Design: Ensure the website works across devices using media queries and responsive layouts; Theme Customization: Allow users to customize the look of the website with light/dark themes; Interactive Features: Use JavaScript for animations, interactive menus, or showing/hiding details dynamically. This project can serve as a practical introduction to web development concepts and enhance your skills!",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/TPC-Madhepura.png",
+  //   source_code_link: "https://github.com/satyamshorrf/TPC-Madhepura",
+  //   deployed_link: "https://tpc-madhepura.vercel.app",
+  // },
+  // {
+  //   name: "Responsive Construction Website",
+  //   description:
+  //     "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "3D-Models",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tanstack/react-query",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Elevenlabs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react/react-fiber",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/assets/projects/construction.png",
+  //   source_code_link:
+  //     "https://github.com/satyamshorrf/Responsive-Construction-Website",
+  //   deployed_link:
+  //     "https://satyamshorrf.github.io/Responsive-Construction-Website/",
+  // },
 ];
 
 const socials = [
   {
-    id: "github",
+    id: "Github",
     icon: <GithubIcon />,
-    link: "https://github.com/satyamshorrf",
+    link: "https://github.com/priyansh7124",
   },
   {
-    id: "linkedin",
+    id: "Linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/satyamshorrf/",
+    link: "https://www.linkedin.com/in/priyansh-agrawal-5622b32ab/",
   },
   {
-    id: "x",
-    icon: <XIcon />,
-    link: "https://twitter.com/satyamshorrf",
+    id: "Leetcode",
+    icon: <LeetcodeIcon />,
+    link: "https://leetcode.com/u/priyansh_7124/",
   },
   {
-    id: "instagram",
-    icon: <InstagramIcon />,
-    link: "https://instagram.com/satyamshorrf",
+    id: "Codeforces",
+    icon: <CodeforcesIcon />,
+    link: "https://codeforces.com/profile/priyansh7124",
   },
+  {
+    id: "CodeChef",
+    icon: <CodechefIcon />,
+    link: "https://www.codechef.com/users/priyansh7124",
+  },
+
+  // {
+  //   id: "x",
+  //   icon: <XIcon />,
+  //   link: "https://twitter.com/satyamshorrf",
+  // },
+  // {
+  //   id: "instagram",
+  //   icon: <InstagramIcon />,
+  //   link: "https://instagram.com/satyamshorrf",
+  // },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
   "Full-Stack developer",
   500,
-  "Frontend developer",
+  "Competitive Programmer",
   500,
   "Backend developer",
-  500,
-  "Mechanical Engineer",
-  500,
-  "Automobile Engineer",
-  500,
-  "Quality Engineer",
   500,
 ];
 
