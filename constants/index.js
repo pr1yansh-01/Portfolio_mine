@@ -210,75 +210,89 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "TPC Madhepura",
-    icon: "/assets/company/TPC.png",
+    title: "CP-Wing Member",
+    company_name: "TPC IIITDMJ",
+    icon: "/assets/company/TPC.jpeg",
+    iconBg: "#E6DEDD",
+    date: "September 2024 - Present",
+    points: [
+      "Competitive core member of the Programming Club at IIITDM Jabalpur, actively contributing to the institute’s competitive programming ecosystem.",
+
+      "Mentored 50+ students in competitive programming, data structures, and algorithms, guiding them through structured practice and contests.",
+
+      "Regularly participated in and promoted coding contests to encourage problem-solving and consistency.",
+
+      "Organized and managed multiple coding events, workshops, and hackathons within the college.",
+
+      "Collaborated with the core team to build a strong peer-learning and coding culture on campus.",
+      "Organisers for Hackbyte 3.0 (March 2025), responsible for outreach and communications.",
+      "Drafted sponsorship proposals and professional emails, securing participation from multiple institutes and contributing to the event being 4× larger than the previous year.",
+    ],
+  },
+  {
+    title: "Alumni Cell Coordinator",
+    company_name: "Alumni Cell",
+    icon: "/assets/company/logo.png",
     iconBg: "#E6DEDD",
     date: "January 2024 - Present",
     points: [
-      "Currently serving as the Tech Lead of TPC Madhepura, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with TPC's mission, and provided technical mentorship.",
-      "Developed TPC website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the TPC community, and played a key role in planning and executing events.",
+      "Alumni Cell Coordinator at IIITDM Jabalpur, responsible for strengthening and maintaining long-term engagement with the institute’s alumni network.",
+
+      "Successfully organized a large-scale Alumni Meet (December 2025), coordinating logistics and engagement for a flagship institute-level event.",
+
+      "Invited and hosted 50+ alumni from diverse professional backgrounds, ensuring smooth communication and participation.",
+
+      "Managed and coordinated with alumni across the globe, maintaining an updated alumni database and regular outreach.",
+
+      "Collaborated with faculty and student teams to execute the event efficiently, fostering meaningful alumni–student interactions.",
     ],
   },
-
-  // {
-  //   title: "Webcasting Technician",
-  //   company_name: "Tech team member at VMukti Solutions Pvt. Ltd. ",
-  //   icon: "/assets/company/VMukti.png",
-  //   iconBg: "#E6DEDD",
-  //   date: "May 2024",
-  //   points: [
-  //     "Played a key role in providing technical support for live webcasting during the Lok Sabha elections. Managed smooth streaming operations and real-time monitoring of voting processes, ensuring transparency and timely reporting during the election period.",
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Played a crucial role in promoting VMukti events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the VMukti community, assisted in workshops, and contributed to planning and managing VMukti events, ensuring their success and growth.",
-  //   ],
-  // },
-
-  // {
-  //   title: "Qulity Engineer",
-  //   company_name: "Apprentice at Tata Motors Passenger Vehicle Pvt. Ltd. ",
-  //   icon: "/assets/company/TATA-Motors.png",
-  //   iconBg: "#E6DEDD",
-  //   date: "September 2022 - September 2023",
-  //   points: [
-  //     "Contributing to various automotive production processes, ensuring high-quality standards,and gaining hands-on experience in vehicle assembly. Collaborated with cross-functional teams to meet quality targets and improve operational efficiency.",
-  //     "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Played a crucial role in promoting TATA Motors events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the TATA Motors community, assisted in workshops, and contributed to planning and managing TATA Motors events, ensuring their success and growth.",
-  //   ],
-  // },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Training and Placement Cell Representative",
+    company_name: "Training and Placement Cell - IIITDMJ",
+    icon: "/assets/company/logo.png",
+    iconBg: "#E6DEDD",
+    date: "January 2024 - Present",
+    points: [
+      "Training & Placement Cell Representative at IIITDM Jabalpur, acting as a liaison between students, the institute, and recruiting organizations.",
+
+      "Assisted in coordinating campus recruitment drives, pre-placement talks, and internship processes.",
+
+      "Communicated with recruiters and alumni to facilitate placement and internship opportunities for students.",
+
+      "Supported data collection, student coordination, and logistical planning for smooth execution of placement activities.",
+
+      "Worked closely with the T&P team to streamline communication and improve student participation in training and placement initiatives.",
+    ],
   },
 ];
+
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -652,7 +666,6 @@ export {
   services,
   technologies,
   experiences,
-  testimonials,
   projects,
   socials,
   heroTexts,
