@@ -23,16 +23,29 @@ function Contact() {
     e.preventDefault();
     setLoading(true);
 
+    // emailjs
+    //   .send(
+    //     process.env.NEXT_PUBLIC_SERVICE_ID,
+    //     process.env.NEXT_PUBLIC_TEMPLATE_ID,
+    //     {
+    //       from_name: form.name,
+    //       to_name: "Priyansh Agrawal",
+    //       from_email: form.email,
+    //       to_email: "priyanshagrawal806@gmail.com",
+    //       message: form.message,
+    //     },
+    //     process.env.NEXT_PUBLIC_EMAILJS_KEY
+    //   )
     emailjs
       .send(
         process.env.NEXT_PUBLIC_SERVICE_ID,
         process.env.NEXT_PUBLIC_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: "Priyansh Agrawal",
-          from_email: form.email,
-          to_email: "@gmail.com",
-          message: form.message,
+          name: form.name, // matches {{name}}
+          email: form.email, // 🔥 REQUIRED for Reply-To
+          message: form.message, // matches {{message}}
+          title: "Portfolio Contact",
+          time: new Date().toLocaleString(),
         },
         process.env.NEXT_PUBLIC_EMAILJS_KEY
       )

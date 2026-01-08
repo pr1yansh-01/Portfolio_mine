@@ -26,9 +26,8 @@ export default function App({ Component, pageProps }) {
   const title = "Portfolio | Priyansh";
   const description =
     "Hello! I'm Priyansh Agrawal, a passionate web developer and problem solver. Welcome to my portfolio";
-  const avatar = "public/assets/priyansh.png";
-  const url =
-    "https://3-d-portfolio-hbuqr3wbo-satyam-shorrfs-projects.vercel.app/";
+  const avatar = "public/assets/avatar.png";
+  const url = "https://portfolio-priyansh-eight.vercel.app/";
 
   return (
     <>

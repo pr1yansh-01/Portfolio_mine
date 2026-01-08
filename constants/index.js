@@ -282,6 +282,162 @@ const testimonials = [
 
 const projects = [
   {
+    name: "HireCraft",
+    description:
+      "Creating an Amazon Clone using HTML, CSS, and JavaScript involves several steps to replicate the look and functionality of the Amazon website. Here is a brief overview of the process:",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/amazon.jpg",
+    source_code_link: "https://github.com/pr1yansh-01/talent-IQ",
+    deployed_link: "",
+  },
+  {
+    name: "EduDesk",
+    description:
+      "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/AI-Girlfriend.jpeg",
+    source_code_link: "https://github.com/pr1yansh-01/EduDesk",
+    deployed_link: "#",
+  },
+  {
+    name: "Civi-AI-RESUME BUILDER ",
+    description:
+      "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Civi.png",
+    source_code_link: "https://github.com/pr1yansh-01/Civi-AI-Resume-Builder",
+    deployed_link: "https://civi-ai.netlify.app/",
+  },
+  {
+    name: "CPTracker",
+    description:
+      "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/CPTracker.png",
+    source_code_link: "https://github.com/pr1yansh-01/CPTracker",
+    deployed_link: "",
+  },
+  {
     name: "SPT-Stock Portfolio Tracker",
     description:
       "SPT: A comprehensive **Data Structures and Algorithms** demonstration project that implements a real-world stock portfolio management system using C++.",
@@ -313,205 +469,48 @@ const projects = [
     deployed_link:
       "https://satyamshorrf.github.io/Lisa-Chatbot-Virtual-Assistant/",
   },
-  // {
-  //   name: "Amazon Website",
-  //   description:
-  //     "Creating an Amazon Clone using HTML, CSS, and JavaScript involves several steps to replicate the look and functionality of the Amazon website. Here is a brief overview of the process:",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "styled-components",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "three.js",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "prisma",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "framer-motion",
-  //       color: "yellow-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/amazon.jpg",
-  //   source_code_link: "https://github.com/satyamshorrf/Amazon",
-  //   deployed_link: "https://satyamshorrf.github.io/Amazon/",
-  // },
-  // {
-  //   name: "AI Virtual Girlfriend",
-  //   description:
-  //     "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/AI-Girlfriend.jpeg",
-  //   source_code_link:
-  //     "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
-  //   deployed_link: "#",
-  // },
-  // {
-  //   name: "lazarev ",
-  //   description:
-  //     "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/lazarev.png",
-  //   source_code_link: "https://github.com/satyamshorrf/lazarev",
-  //   deployed_link: "https://satyamshorrf.github.io/lazarev/",
-  // },
-  // {
-  //   name: "3D Animated Website",
-  //   description:
-  //     "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/3D-Animated.png",
-  //   source_code_link: "https://github.com/satyamshorrf/3D-Animated-Website",
-  //   deployed_link: "https://3-d-animated-website-ochre.vercel.app",
-  // },
-  // {
-  //   name: "ThreeJS Landing Page",
-  //   description:
-  //     "Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/ThreeJS.png",
-  //   source_code_link: "https://github.com/satyamshorrf/Landing-Page-ThreeJS",
-  //   deployed_link: "https://landing-page-three-js-eight.vercel.app",
-  // },
+  {
+    name: "Tic-Tac-Toe",
+    description:
+      "Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D-Models",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Elevenlabs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react/react-fiber",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/tictactoe.png",
+    source_code_link: "https://github.com/pr1yansh-01/Tic-Tac-Toe",
+    deployed_link: "https://pr1yansh-01.github.io/Tic-Tac-Toe/",
+  },
   // {
   //   name: "TPC Madhepura",
   //   description:
@@ -604,7 +603,7 @@ const socials = [
   {
     id: "Github",
     icon: <GithubIcon />,
-    link: "https://github.com/priyansh7124",
+    link: "https://github.com/pr1yansh-01",
   },
   {
     id: "Linkedin",
@@ -614,17 +613,17 @@ const socials = [
   {
     id: "Leetcode",
     icon: <LeetcodeIcon />,
-    link: "https://leetcode.com/u/priyansh_7124/",
+    link: "https://leetcode.com/u/priyansh_07/",
   },
   {
     id: "Codeforces",
     icon: <CodeforcesIcon />,
-    link: "https://codeforces.com/profile/priyansh7124",
+    link: "https://codeforces.com/profile/priyansh_01",
   },
   {
     id: "CodeChef",
     icon: <CodechefIcon />,
-    link: "https://www.codechef.com/users/priyansh7124",
+    link: "https://www.codechef.com/users/pr1yansh_01",
   },
 
   // {
