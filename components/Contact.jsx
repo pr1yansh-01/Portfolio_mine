@@ -47,11 +47,12 @@ function Contact() {
           title: "Portfolio Contact",
           time: new Date().toLocaleString(),
         },
-        process.env.NEXT_PUBLIC_EMAILJS_KEY
+        process.env.NEXT_PUBLIC_EMAILJS_KEY,
       )
       .then(
         () => {
           setLoading(false);
+          console.log("Email sent successfully!");
           alert("Thank you for your message. I will get back to you soon.");
 
           setForm({
@@ -62,9 +63,9 @@ function Contact() {
         },
         (error) => {
           setLoading(false);
-          console.log(error);
+          console.error("EmailJS Error:", error);
           alert("Something went wrong. Please try again later.");
-        }
+        },
       );
   };
 

@@ -2,10 +2,16 @@ import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 import "@/styles/globals.css";
 
 import { PreLoader } from "@/components/Loader";
+
+// Initialize EmailJS
+if (typeof window !== "undefined") {
+  emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_KEY);
+}
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
