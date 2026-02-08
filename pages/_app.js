@@ -44,13 +44,13 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content={url} />
         <meta property="og:type" content="website" />
 
-        <meta property="twitter:image" content={avatar} />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@satyamshorrf" />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
+        {/* <meta property="twitter:image" content={avatar} /> */}
+        {/* <meta property="twitter:card" content="summary_large_image" /> */}
+        {/* <meta name="twitter:creator" content="@satyamshorrf" /> */}
+        {/* <meta property="twitter:title" content={title} /> */}
+        {/* <meta property="twitter:description" content={description} /> */}
 
-        <link rel="canonical" href={url} />
+        {/* <link rel="canonical" href={url} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -68,7 +68,7 @@ export default function App({ Component, pageProps }) {
           sizes="16x16"
           href="/assets/icons/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+        <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" /> */}
       </Head>
 
       <ThemeProvider attribute="class" defaultTheme="dark">

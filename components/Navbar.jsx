@@ -71,7 +71,7 @@ function Navbar() {
             <Link href="/">
               <p className="dark:text-ctnPrimaryDark text-ctnPrimaryLight text-[18px] font-bold cursor-pointer flex ">
                 Priyansh Agrawal &nbsp;
-                <span className="lg:block hidden"> | Engineer</span>
+                <span className="lg:block hidden"> | Developer</span>
               </p>
             </Link>
           </div>
