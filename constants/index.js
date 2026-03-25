@@ -210,6 +210,17 @@ const technologies = {
 
 const experiences = [
   {
+    title: "SDE Intern",
+    company_name: "Zexa Technologies",
+    icon: "/assets/company/zexa.png",
+    iconBg: "#E6DEDD",
+    date: " January 2026- February 2026",
+    points: [
+      "Contributed to dbDesk, a modern database management and exploration tool, focusing on improving developer experience and system usability.",
+      "Improved database interaction workflows, optimizing performance and reducing latency in query operations.",
+    ],
+  },
+  {
     title: "CP-Wing Member",
     company_name: "TPC IIITDMJ",
     icon: "/assets/company/TPC.jpeg",
@@ -296,114 +307,81 @@ const experiences = [
 
 const projects = [
   {
+    name: "HackShare",
+    description:
+      "A full-stack developer collaboration and resource sharing platform that enables teams to create projects, manage discussions, and collaborate efficiently. Features include GitHub integration for repository insights, community-driven posts, and scalable backend architecture.",
+    tags: [
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "react.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "node.js", color: "orange-text-gradient" },
+      { name: "express.js", color: "yellow-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "jwt", color: "blue-text-gradient" },
+      { name: "cloudinary", color: "orange-text-gradient" },
+      { name: "github-api", color: "white-text-gradient" },
+      { name: "gemini-api", color: "pink-text-gradient" },
+    ],
+    image: "/assets/projects/hackshare.png",
+    source_code_link: "https://github.com/your-username/hackshare",
+    deployed_link: "",
+  },
+  {
+    name: "TeraBuddy",
+    description:
+      "TeraBuddy is a LAN-based file sharing application that enables fast and secure transfer of files between devices on the same network without requiring internet connectivity. It uses WebSockets for real-time communication and ensures seamless sender-receiver interaction with a simple UI.",
+    tags: [
+      { name: "flutter", color: "blue-text-gradient" },
+      { name: "node.js", color: "green-text-gradient" },
+      { name: "websocket", color: "pink-text-gradient" },
+      { name: "express", color: "orange-text-gradient" },
+      { name: "networking", color: "yellow-text-gradient" },
+    ],
+    image: "/assets/projects/hackshare.png",
+    source_code_link: "https://github.com/your-username/hackshare",
+    deployed_link: "",
+  },
+  {
     name: "HireCraft",
     description:
       "Creating an Amazon Clone using HTML, CSS, and JavaScript involves several steps to replicate the look and functionality of the Amazon website. Here is a brief overview of the process:",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "yellow-text-gradient",
-      },
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "styled-components", color: "green-text-gradient" },
+      { name: "three.js", color: "pink-text-gradient" },
+      { name: "prisma", color: "orange-text-gradient" },
+      { name: "framer-motion", color: "yellow-text-gradient" },
     ],
-    // image: "/assets/projects/amazon.jpg",
     source_code_link: "https://github.com/pr1yansh-01/talent-IQ",
     deployed_link: "",
   },
   {
     name: "EduDesk",
     description:
-      "In this project we will create a virtual girlfriend chatbot, but feel free to use what you'll learn to build your own support assistant, language teacher, or any ideas you have in mind!",
+      "In this project we will create a virtual AI assistant chatbot. It can be extended to build support assistants, language tutors, or other interactive systems.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
+      { name: "typescript", color: "blue-text-gradient" },
+      { name: "3D-Models", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "node.js", color: "orange-text-gradient" },
+      { name: "tanstack/react-query", color: "yellow-text-gradient" },
+      { name: "OpenAI", color: "white-text-gradient" },
+      { name: "Elevenlabs", color: "green-text-gradient" },
+      { name: "react-three-fiber", color: "blue-text-gradient" },
     ],
-    // image: "/assets/projects/AI-Girlfriend.jpeg",
     source_code_link: "https://github.com/pr1yansh-01/EduDesk",
     deployed_link: "#",
   },
   {
-    name: "Civi-AI-RESUME BUILDER ",
+    name: "Civi AI Resume Builder",
     description:
-      "The Lazarev website clone is a recreated version of the Lazarev digital product design agency's website, often developed for practice or showcasing frontend development skills. It features elegant design, intricate animations, and interactivity, built using technologies like HTML, CSS, and JavaScript. Some clones highlight specific offerings, such as showcasing unique cinematography equipment or simulating the agency's focus on engaging user experiences and business growth!",
+      "An AI-powered resume builder platform with modern UI, animations, and intelligent content generation for creating professional resumes.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
+      { name: "typescript", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "node.js", color: "orange-text-gradient" },
+      { name: "react-query", color: "yellow-text-gradient" },
+      { name: "OpenAI", color: "white-text-gradient" },
     ],
     image: "/assets/projects/Civi.png",
     source_code_link: "https://github.com/pr1yansh-01/Civi-AI-Resume-Builder",
@@ -412,205 +390,45 @@ const projects = [
   {
     name: "CPTracker",
     description:
-      "Creating a 3D animated website using HTML, CSS, and JavaScript involves combining advanced CSS properties like transform and perspective with JavaScript for interactivity. For scrolling animations, libraries like Three.js or Canvas are commonly used to achieve smooth 3D effects. Such projects can include interactive 3D models, immersive environments, or dynamic effects like rotating objects and scrolling scenes. Examples include creating 3D rooms or implementing engaging scrolling animations for websites!",
+      "A competitive programming tracker with visual insights, progress monitoring, and interactive UI for managing problem-solving performance.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
+      { name: "typescript", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "node.js", color: "orange-text-gradient" },
+      { name: "react-query", color: "yellow-text-gradient" },
     ],
     image: "/assets/projects/CPTracker.png",
     source_code_link: "https://github.com/pr1yansh-01/CPTracker",
     deployed_link: "",
   },
   {
-    name: "SPT-Stock Portfolio Tracker",
+    name: "SPT - Stock Portfolio Tracker",
     description:
-      "SPT: A comprehensive **Data Structures and Algorithms** demonstration project that implements a real-world stock portfolio management system using C++.",
+      "A Data Structures and Algorithms based stock portfolio management system implemented in C++ to simulate real-world investment tracking.",
     tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
-      // {
-      //   name: "fabricjs",
-      //   color: "orange-text-gradient",
-      // },
-      // {
-      //   name: "liveblocks",
-      //   color: "yellow-text-gradient",
-      // },
+      { name: "C++", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "yellow-text-gradient" },
+      { name: "HTML", color: "pink-text-gradient" },
     ],
     image: "/assets/projects/SPT.png",
-    source_code_link:
-      "https://github.com/priyansh7124/Stock-Portfolio-Tracker.",
+    source_code_link: "https://github.com/priyansh7124/Stock-Portfolio-Tracker",
     deployed_link:
       "https://satyamshorrf.github.io/Lisa-Chatbot-Virtual-Assistant/",
   },
   {
     name: "Tic-Tac-Toe",
     description:
-      "Creating a financial website using Three.js can involve incorporating interactive 3D models to visualize data, like dynamic graphs, pie charts, or financial trends. Three.js is a JavaScript library that simplifies creating WebGL-powered 3D graphics in the browser. For example, you could develop a 3D dashboard with rotating charts or interactive models that represent market behavior, enabling users to interact with financial data in an immersive way. The library's versatility allows for lightweight yet visually stunning implementations suitable for various financial use cases!",
+      "An interactive web-based Tic-Tac-Toe game with clean UI and smooth gameplay experience, built using modern frontend tools.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3D-Models",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Elevenlabs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react/react-fiber",
-        color: "blue-text-gradient",
-      },
+      { name: "typescript", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "node.js", color: "orange-text-gradient" },
+      { name: "react-query", color: "yellow-text-gradient" },
     ],
     image: "/assets/projects/tictactoe.png",
     source_code_link: "https://github.com/pr1yansh-01/Tic-Tac-Toe",
     deployed_link: "https://pr1yansh-01.github.io/Tic-Tac-Toe/",
   },
-  // {
-  //   name: "TPC Madhepura",
-  //   description:
-  //     "As a 2nd-year BCA student, you can create a Friend Circle website using HTML, CSS, and JavaScript. This project can allow users to connect with their friends and display their social media profiles. Key features can include: Profile Cards: Use HTML and CSS to design individual profile cards with each friend's name, picture, and social media icons linked to their accounts; Add Friends Feature: Implement a feature to add friends using a form and a Friends Mapping structure in JavaScript or backend logic; Responsive Design: Ensure the website works across devices using media queries and responsive layouts; Theme Customization: Allow users to customize the look of the website with light/dark themes; Interactive Features: Use JavaScript for animations, interactive menus, or showing/hiding details dynamically. This project can serve as a practical introduction to web development concepts and enhance your skills!",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/TPC-Madhepura.png",
-  //   source_code_link: "https://github.com/satyamshorrf/TPC-Madhepura",
-  //   deployed_link: "https://tpc-madhepura.vercel.app",
-  // },
-  // {
-  //   name: "Responsive Construction Website",
-  //   description:
-  //     "Responsive Construction Website Design Using HTML CSS And JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
-  //   tags: [
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "3D-Models",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "node.js",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "tanstack/react-query",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "OpenAI",
-  //       color: "white-text-gradient",
-  //     },
-  //     {
-  //       name: "Elevenlabs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react/react-fiber",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/construction.png",
-  //   source_code_link:
-  //     "https://github.com/satyamshorrf/Responsive-Construction-Website",
-  //   deployed_link:
-  //     "https://satyamshorrf.github.io/Responsive-Construction-Website/",
-  // },
 ];
 
 const socials = [
